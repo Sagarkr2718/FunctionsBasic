@@ -1,0 +1,35 @@
+
+
+import java.lang.*;
+import java.util.*;
+  
+public class Main {
+	public static int sum(int a , int b){
+	  int c = a+b;
+	  return c;
+  }
+    public static void main(String[] args) {
+        // YOUR CODE GOES HERE
+        // Please take input and print output to standard input/output (stdin/stdout)
+        // DO NOT USE ARGUMENTS FOR INPUTS
+        // E.g. 'Scanner' for input & 'System.out' for output
+		    int s = sum(15,39);
+			System.out.println(s);
+			
+			int s2= sum(17,82);
+			System.out.println(s2);
+			
+			int a = 10, b= 17;
+			int s3=sum(a,b);
+			System.out.println(s3);
+			
+			System.out.println(sum(27,18));
+			
+			int p = 9;
+			System.out.println(sum(p,9));
+			
+			
+      
+        
+    }
+}
